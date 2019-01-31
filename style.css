@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background: #444;
+}
+
+.container {
+    max-width: 860px;
+    margin: auto;
+    border: #fff solid 30px;
+    background: #fff;
+
+}
+
+.main-img img,
+.images img {
+    width: 100%;
+}
+
+.images img {
+    max-height: 100px;
+}
+
+.images {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.images img:hover {
+    cursor: pointer;
+}
